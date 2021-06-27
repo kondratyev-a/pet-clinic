@@ -8,4 +8,5 @@ The Spring Pet clinic is a sample application designed to show how the Spring st
 - **Planned scope of work** using Github issues
 - Implemented **POJO data model** for entities in the project
 - Created **multi-module Maven project** to separate levels of data and web
-- Added **Maven release plugin** to prepare and build releases and publish them on Github 
+- Added **Maven release plugin** to prepare and build releases and publish them on Github
+- Created **service-level interfaces** to access the data
