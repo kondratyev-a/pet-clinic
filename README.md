@@ -1,6 +1,6 @@
 # Spring Pet clinic
 
-*Warning! This project is at work now and doesn't complete.*
+*This project is at work now and doesn't complete.*
 
 The Spring Pet clinic is a sample application designed to show how the Spring stack can be used to build simple, but powerful database-oriented applications. Part of the course [Spring Framework 5: Beginner to Guru](https://www.udemy.com/course/spring-framework-5-beginner-to-guru/)
 
@@ -10,3 +10,4 @@ The Spring Pet clinic is a sample application designed to show how the Spring st
 - Created **multi-module Maven project** to separate levels of data and web
 - Added **Maven release plugin** to prepare and build releases and publish them on Github
 - Created **service-level interfaces** to access the data
+- To demonstrate different options of service implementations I created **Map-based services**
