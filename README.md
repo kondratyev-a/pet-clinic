@@ -2,6 +2,8 @@
 
 *This project is at work now and doesn't complete.*
 
+[Run the application](https://spring5-pet-clinic.herokuapp.com/)
+
 The Spring Pet clinic is a sample application designed to show how the Spring stack can be used to build simple, but powerful database-oriented applications. Part of the course [Spring Framework 5: Beginner to Guru](https://www.udemy.com/course/spring-framework-5-beginner-to-guru/)
 
 ## What I did on this project
