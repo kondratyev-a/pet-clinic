@@ -9,5 +9,7 @@ The Spring Pet clinic is a sample application designed to show how the Spring st
 - Implemented **POJO data model** for entities in the project
 - Created **multi-module Maven project** to separate levels of data and web
 - Added **Maven release plugin** to prepare and build releases and publish them on Github
-- Created **service-level interfaces** to access the data
-- To demonstrate different options of service implementations I created **Map-based services**
+- To demonstrate different options of service implementations I created **Map-based services** and **JPA-services**
+- Set up **automatic deploys to Heroku** from GitHub repo
+- Copied **templates** from the original Spring Pet clinic project
+- Added **wro4j** to reduce web application page loading time
