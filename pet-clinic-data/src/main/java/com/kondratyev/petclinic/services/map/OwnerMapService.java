@@ -2,16 +2,13 @@ package com.kondratyev.petclinic.services.map;
 
 import com.kondratyev.petclinic.model.Owner;
 import com.kondratyev.petclinic.model.Pet;
-import com.kondratyev.petclinic.model.PetType;
 import com.kondratyev.petclinic.services.OwnerService;
 import com.kondratyev.petclinic.services.PetService;
 import com.kondratyev.petclinic.services.PetTypeService;
 import org.springframework.stereotype.Service;
 
-import java.util.Set;
-
 @Service
-public class OwnerMapService extends AbstractMapService<Owner,Long> implements OwnerService {
+public class OwnerMapService extends AbstractMapService<Owner> implements OwnerService {
 
     private final PetTypeService petTypeService;
     private final PetService petService;
@@ -19,21 +16,6 @@ public class OwnerMapService extends AbstractMapService<Owner,Long> implements O
     public OwnerMapService(PetTypeService petTypeService, PetService petService) {
         this.petTypeService = petTypeService;
         this.petService = petService;
-    }
-
-    @Override
-    public Set<Owner> findAll() {
-        return super.findAll();
-    }
-
-    @Override
-    public void deleteById(Long id) {
-        super.deleteById(id);
-    }
-
-    @Override
-    public void delete(Owner object) {
-        super.delete(object);
     }
 
     @Override
@@ -59,11 +41,6 @@ public class OwnerMapService extends AbstractMapService<Owner,Long> implements O
         } else {
             return null;
         }
-    }
-
-    @Override
-    public Owner findById(Long id) {
-        return super.findById(id);
     }
 
     @Override
