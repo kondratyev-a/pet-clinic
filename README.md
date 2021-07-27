@@ -21,3 +21,4 @@ The Spring Pet clinic is a sample application designed to show how the Spring st
 - Plugin **wro4j** to reduce web application page loading time
 - **Lombok** to reduce boilerplate code
 - **Junit5** and **Mockito** for tests
+- **CI/CD** using CircleCI
