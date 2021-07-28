@@ -2,7 +2,8 @@
 
 *This project is at work now and doesn't complete.*
 
-[Run the application](https://spring5-pet-clinic.herokuapp.com/)
+[Run the application](https://spring5-pet-clinic.herokuapp.com/)  
+[![kondratyev-a](https://circleci.com/gh/kondratyev-a/pet-clinic.svg?style=shield)](https://circleci.com/gh/kondratyev-a/pet-clinic)
 
 The Spring Pet clinic is a sample application designed to show how the Spring stack can be used to build simple, but powerful database-oriented applications. Part of the course [Spring Framework 5: Beginner to Guru](https://www.udemy.com/course/spring-framework-5-beginner-to-guru/)
 
@@ -19,3 +20,5 @@ The Spring Pet clinic is a sample application designed to show how the Spring st
 - Used **templates** from the original Spring Pet clinic project
 - Plugin **wro4j** to reduce web application page loading time
 - **Lombok** to reduce boilerplate code
+- **Junit5** and **Mockito** for tests
+- **CI/CD** using CircleCI
